@@ -42,7 +42,7 @@ function BottomSheet({ trigger, children, buttons }: BottomSheetProps) {
                   button &&
                   React.cloneElement(button, {
                     onClick: () => {
-                      button.props.onClick();
+                      if (button.props.onClick) button.props.onClick();
                       closeBottomSheet();
                     },
                   })
