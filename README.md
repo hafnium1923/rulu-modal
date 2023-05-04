@@ -72,3 +72,4 @@ function App() {
   )
 }
 ```
+<img width="367" alt="화면 캡처 2023-05-04 160854" src="https://user-images.githubusercontent.com/79538610/236134658-33aa550a-ff3a-4aec-8176-26682c99e702.png">
